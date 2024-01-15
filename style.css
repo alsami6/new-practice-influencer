@@ -70,6 +70,12 @@ header{
 
 .camera-div{
     margin-top: 80px;
+    border: 3px solid var(--Brand-Purple-100, #F1E4FF);
+    border-radius: 475px;
+}
+
+.camera-div img{
+    width: 100%;
 }
 
 main{
@@ -94,7 +100,7 @@ main{
 .product-name{
     color: #18191F;
     font-size: 1.75rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 0.7rem;
     margin-top: 0.9rem;
 }
@@ -102,7 +108,7 @@ main{
     color: rgba(0, 0, 0, 0.87);
     font-size: 1.75rem;
     font-weight: 400;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
 }
 .product-para{
     color: #787885;
@@ -116,7 +122,11 @@ main{
     grid-template-columns: repeat(3, 1fr);
     margin: 0px auto;
     gap: 30px;
-    text-align: center;
+    text-align: left;
+}
+
+.product-main-div img{
+    width: 100%;
 }
 
 .see-btn{
@@ -147,6 +157,10 @@ main{
     display: flex;
     gap: 4rem;
     margin-bottom: 130px;
+}
+
+.gear-div img {
+    width: 100%;
 }
 
 .at-place{
